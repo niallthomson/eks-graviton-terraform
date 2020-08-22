@@ -20,11 +20,6 @@ resource "aws_eks_cluster" "cluster" {
   ]
 }
 
-/*resource "aws_cloudwatch_log_group" "cluster" {
-  name              = "/aws/eks/${var.environment_name}/cluster"
-  retention_in_days = 7
-}*/
-
 resource "aws_iam_role" "cluster" {
   name               = "${var.environment_name}-cluster-role"
   assume_role_policy = <<POLICY
