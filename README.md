@@ -2,7 +2,7 @@
 
 This repository provides example Terraform configuration for building an EKS cluster with a Managed Node Group that uses Graviton2 instances. These instances are generally cheaper than the equivalent x86-based instances.
 
-See [this blog post](https://example.com) (to be finished) for more information.
+See [this blog post](https://medium.com/@niallthomson/building-amazon-eks-clusters-with-graviton2-instances-using-terraform-30cdcaed9e54) for more information.
 
 ## Pre-Requisites
 
